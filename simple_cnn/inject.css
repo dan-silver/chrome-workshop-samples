@@ -1,0 +1,14 @@
+#cnn_maintopprofile {
+	display: none !important;
+}
+#cnn_toptstmparea {
+	display: none;
+}
+div#cnn_maintopt1 {
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+#hdr-editions {
+	display: none;
+}

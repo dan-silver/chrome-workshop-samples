@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Weather",
+  "description": "Displays the current temp in the icon bar",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["weather.js"]
+  }
+}

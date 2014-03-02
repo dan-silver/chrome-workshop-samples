@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Simple CNN",
+  "description": "This extension removes extra banners from CNN.com",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://www.cnn.com/*"],
+      "css": ["inject.css"]
+    }
+  ]
+}
